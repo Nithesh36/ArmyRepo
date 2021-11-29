@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite1]" guice-stage="DEVELOPMENT" verbose="0">
+  <test thread-count="5" name="Media(failed)" verbose="0">
+    <classes>
+      <class name="testcases.MediaRelase">
+        <methods>
+          <include name="BrokenImageTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testcases.MediaRelase -->
+    </classes>
+  </test> <!-- Media(failed) -->
+  <test thread-count="5" name="photoGallery(failed)" verbose="0">
+    <parameter name="selectionType" value="value"/>
+    <parameter name="dropdownvalue" value="2245"/>
+    <parameter name="pageNum" value="3"/>
+    <classes>
+      <class name="testcases.PhotoGallery">
+        <methods>
+          <include name="paginationAndImageTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- testcases.PhotoGallery -->
+    </classes>
+  </test> <!-- photoGallery(failed) -->
+  <test thread-count="5" name="publicationTest(failed)" verbose="0">
+    <parameter name="dropdownIndValue" value="3"/>
+    <parameter name="selectionType1" value="index"/>
+    <classes>
+      <class name="testcases.Publication">
+        <methods>
+          <include name="ValidUrlTest"/>
+        </methods>
+      </class> <!-- testcases.Publication -->
+    </classes>
+  </test> <!-- publicationTest(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

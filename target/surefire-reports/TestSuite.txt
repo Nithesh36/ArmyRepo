@@ -1,0 +1,25 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 11, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 444.934 s <<< FAILURE! - in TestSuite
+testcases.MediaRelase.BrokenImageTest  Time elapsed: 5.867 s  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at testcases.MediaRelase.BrokenImageTest(MediaRelase.java:71)
+
+testcases.PhotoGallery.paginationAndImageTest[2245, value, 3](1)  Time elapsed: 30.686 s  <<< FAILURE!
+java.lang.AssertionError: expected [false] but found [true]
+	at testcases.PhotoGallery.paginationAndImageTest(PhotoGallery.java:47)
+
+testcases.Publication.ValidUrlTest  Time elapsed: 7.336 s  <<< FAILURE!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//a[text()='Col Samir Srivastava']"}
+  (Session info: MicrosoftEdge=95.0.1020.40)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'NITHESH-PC', ip: '192.168.228.76', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '16.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 95.0.1020.40, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:60063}, msedge: {msedgedriverVersion: 95.0.1020.53 (9087d157c3938..., userDataDir: C:\Users\nithesh\AppData\Lo...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2db459ea27d7cce4e520111bf46389c6
+*** Element info: {Using=xpath, value=//a[text()='Col Samir Srivastava']}
+	at testcases.Publication.ValidUrlTest(Publication.java:63)
+
