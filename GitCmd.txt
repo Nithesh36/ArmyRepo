@@ -1,0 +1,59 @@
+remove file
+git rm Demo.txt(filename.extension)
+
+git commit -m "file deleted"
+
+//to make a changes to remote repository use
+git push
+
+
+Create a repository
+
+git init
+
+add files to local repository or local machine
+git add .
+
+commit a changes to local repository
+git commit -m "first commit"
+
+choose the branch
+
+git branch -M main
+
+git remote add origin https://github.com/Nithesh36/ArmyRepo.git
+
+add a changes to remote repository 
+
+>git push -u origin main
+
+
+add to existing repositry
+git add .
+git commit -m "second commit"
+git branch -M main
+git push -u origin main
+
+/another way of push files to exisiting repository
+git remote add origin https://github.com/cdcdianne/ReactJS-TheMovieDB.git
+git branch -M main
+git push -u origin main
+
+
+
+create a new branch
+
+git branch SubBranch
+
+switch into  specific branch
+git branch -M   SubBranch
+
+
+git add .
+
+add files to that branch
+git push  origin  SubBranch
+
+make a pull request (doubt)
+git branch -M   main
+git push
