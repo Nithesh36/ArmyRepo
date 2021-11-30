@@ -56,6 +56,11 @@ git push  origin  SubBranch
 
 make a pull request (doubt)
 git branch -M   main
+welcome
+new one
+
+
+
 git push
 
 Undo the saved files -git restore filename.txt
@@ -65,3 +70,4 @@ git checkout CommitId
 
 see  changes before add files or commit
 git diff
+h
