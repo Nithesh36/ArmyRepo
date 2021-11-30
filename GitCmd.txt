@@ -6,7 +6,7 @@ git commit -m "file deleted"
 //to make a changes to remote repository use
 git push
 
-
+dd
 Create a repository
 
 git init
